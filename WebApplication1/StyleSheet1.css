@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color:#666;
     color: #000305;
     font-family:Arial,'Lucida Sans Unicode';
@@ -6,25 +6,39 @@
     text-align:left;
     line-height: 1.5;
 }
-nav{
-    background-color: blue;
-    width: 100%;
-    height: 20%;
-    display: block;
+.mainContainer{
+	width: 70%;
+	height:auto;
+	margin: 0 auto;
 }
-nav li{
-    display:inline-block;
-    width: 5%;
-    height: auto;
-    margin:20px;
-    padding: 10px;
-    float:left;
+nav{
+	width: 100%;
+	background:blue;
+}
+nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	padding: 5px 10px 5px 10px;
+}
+.active{
+	background:orange;
 }
 header h1{
     display: inline-block;
     float: right;  
     margin:10px;
     color: white;  
+}
+.footer {
+width: 100%;
+display: block;
+clear: both;
+}
+
+.footertext {
+text-align: center;
+color: white;
+font-size: 12px;
 }
 a{
     text-decoration: none;
@@ -35,14 +49,9 @@ a:link, a:visited{
 }
 
 a:hover,a:active{
-    background-color:#cf5c3f;
     color:#fff;
 }
-.body {
-    margin:0 auto;
-    width:70%;
-    clear:both;
-}
+
 
 .mainheader img {
      width:30%;
@@ -50,8 +59,45 @@ a:hover,a:active{
     margin: 2%;
 }
 .mainContent{
-    background-color:aquamarine;
-    width: 70%;
-    height: 50%;
-    clear: left;
-}   
+	width: 100%;
+    height: auto;
+    float: left;
+	}   
+
+.mainContentleft{
+  
+    width: 65%;
+    height: auto;
+    float: left;
+	}   
+
+.mainContentRight{
+    width: 30%;
+    height: auto;
+    float: right;
+	}
+.mainContent h2{
+color:orange;
+font-size: 20px;
+}	
+
+.mainContentleft h2{
+color:orange;
+font-size: 20px;
+}
+.mainContentleft h3{
+color: grey;
+font-size: 12px;
+}
+.inner{
+width:100%;
+min-height:100px;
+background:#E6F7F7;
+border-radius:10px;
+margin-bottom:10px;
+}
+.innerText{
+	width:90%;
+	margin: 0 auto;
+	padding-top:10px;
+}
